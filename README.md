@@ -1,7 +1,6 @@
 # SafeBytes
 
-**SafeBytes** is a machine learning-powered malware detection system that analyzes file features to classify files as safe or malicious.  
-By leveraging intelligent models, SafeBytes provides an extra layer of protection against hidden threats.
+**SafeBytes** Développement d’un système de détection de malwares combinant analyse statique et dynamique, avec un focus sur le comportement réseau des exécutables suspects. Intégration de la capture de trafic en temps réel via Scapy et Tshark afin d’extraire des caractéristiques comportementales (IP contactées, fréquence des connexions, usage de ports inhabituels, requêtes DNS). Utilisation de Python, TensorFlow et Scikit-learn pour entraîner un modèle de classification capable de distinguer les logiciels malveillants des fichiers légitimes. Ce projet s’inscrit dans une logique de cybersécurité proactive, en identifiant les menaces grâce à l’analyse du réseau et à l’IA
 
 ---
 
